@@ -52,4 +52,21 @@ figure {
     text-align: right;
 }
 
+.header2 {
+    display: inline-block;
+    font-size: 50px;
+    padding: 15px;
+    border-right: solid 3px blue;
+    width: 25%;
+    text-align: center;
+}
+.right-box {
+    display: inline-block;
+    font-size: larger;
+    padding: 15px;
+    width: 70%;
+    text-align: center;
+}
+
+
 /* FUTURE BG1 IMG SRC URL https://i.pinimg.com/originals/04/2d/47/042d478e2498ea6500bc99536dc35a1d.jpg /* 
