@@ -1,4 +1,9 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header {
     position: sticky;
     position: -webkit-sticky;
@@ -38,3 +43,13 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
 }
+figure {
+    background-image: url("./assets/images/bg1.jpg");
+    height: 200px;
+    background-position-x: center;
+    background-position-y: 30%;
+    color: white;
+    text-align: right;
+}
+
+/* FUTURE BG1 IMG SRC URL https://i.pinimg.com/originals/04/2d/47/042d478e2498ea6500bc99536dc35a1d.jpg /* 
