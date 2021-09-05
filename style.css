@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 header {
     position: sticky;
@@ -51,25 +50,20 @@ header nav ul li a {
     color: white;
     text-align: right;
 }
-.main-sect {
-    display: flex;
-    flex-wrap: wrap;
-
+.about-me-div {
+    width: 100%;
 }
-.header2 {
+.about-me {
+    box-sizing: border-box;
     display: inline-block;
     font-size: 50px;
     padding: 10px;
     margin: 10px;
     border-right: solid 3px blue;
-    width: 25%; 
+    width: 15%; 
     text-align: center;
 }
-.header2#work {
-    margin-top: 100px;
-    margin-bottom: 500px;
-}
-.right-box {
+.right-text {
     display: inline-block;
     font-size: larger;
     padding: 15px;
@@ -77,22 +71,59 @@ header nav ul li a {
     height: 200px;
     text-align: center;
 }
-.right-box img {
-    width: 60%;
-    border: 3px solid #39a6b2;
+.main-sect {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
 }
-.img-list {
-    float: right;
-    height: 200px;
+.work {
+    padding: 10px;
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+    border-right: solid 3px blue;
+}
+.work-thumbs {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-run-buddy {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.img-run-buddy img {
+    align-items: center;
+    object-fit: cover;
+    height: 500px;
+    width: 900px;
+    border: 3px solid teal;
 
 }
 .img-list img {
-    height: 200px;
+    align-items: center;
+    object-fit: cover;
+    height: 250px;
+    width: 442px;
+    margin: 5px;
+    border: 3px solid teal;
 
-    float: right;
+
+
 }
 
-
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    margin-top: 40px;
+}
 
 /* FUTURE BG1 IMG SRC URL https://i.pinimg.com/originals/04/2d/47/042d478e2498ea6500bc99536dc35a1d.jpg /* 
 /*ADD BREAKPOINTS FOR MOBILE*/
