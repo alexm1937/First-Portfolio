@@ -7,10 +7,11 @@ header {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-color: #39a6b2;
+    background-color: #686868;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    z-index: 1000;
 }
 header h1 {
     font-weight: bold;
@@ -52,14 +53,15 @@ header nav ul li a {
 }
 .about-me-div {
     width: 100%;
+    background-color: #B0B0B0;
 }
 .about-me {
     box-sizing: border-box;
     display: inline-block;
-    font-size: 50px;
+    font-size: 34px;
     padding: 10px;
     margin: 10px;
-    border-right: solid 3px blue;
+    border-right: solid 3px teal;
     width: 15%; 
     text-align: center;
 }
@@ -68,11 +70,16 @@ header nav ul li a {
     font-size: larger;
     padding: 15px;
     width: 70%;
-    height: 200px;
     text-align: center;
 }
+/*END ABOUT ME*/
+
+
+
+
 .main-sect {
     display: flex;
+    background-color: #686868;
     flex-wrap: wrap;
     width: 100%;
     align-items: center;
@@ -91,17 +98,40 @@ header nav ul li a {
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .img-run-buddy {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
 }
 .img-run-buddy img {
     align-items: center;
     object-fit: cover;
     height: 600px;
     width: 1100px;
-    border: 3px solid teal;
+    border: 3px solid #fce138;
+}
+.overlay1 {
+    position: absolute;
+    bottom: 7px;
+    left: 0px;
+    background-color: #fce138;
+    color: teal;
+    font-size: 35px;
+    font-weight: bold;
+}
+.overlay2 {
+    position: absolute;
+    top: 16px;
+    left: 8px;
+    background-color: #fce138;
+    color: teal;
+    font-size: 25px;
+    font-weight: bold;
+}
+.img-list {
+    position: relative
 }
 .img-list img {
     align-items: center;
@@ -109,13 +139,26 @@ header nav ul li a {
     height: 300px;
     width: 542px;
     margin: 5px;
-    border: 3px solid teal;
+    border: 3px solid #fce138;
+}
 
-
-
+.contact-me {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #B0B0B0;
+    padding: 25px;
+}
+.contact-me h2 {
+    font-size: 50;
+}
+.contact-me ul {
+    margin-right: 25px;
 }
 
 
+
+/*END MY WORK*/
 
 /* FUTURE BG1 IMG SRC URL https://i.pinimg.com/originals/04/2d/47/042d478e2498ea6500bc99536dc35a1d.jpg /* 
 /*ADD BREAKPOINTS FOR MOBILE*/
