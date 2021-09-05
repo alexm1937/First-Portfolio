@@ -162,3 +162,23 @@ header nav ul li a {
 
 /* FUTURE BG1 IMG SRC URL https://i.pinimg.com/originals/04/2d/47/042d478e2498ea6500bc99536dc35a1d.jpg /* 
 /*ADD BREAKPOINTS FOR MOBILE*/
+
+@media screen and (max-width: 400px) {
+header {
+    width: 100%;
+}
+header h1 {
+ font-size: 16px;
+}
+.img-run-buddy img {
+    height: 150px;
+    width: 275px;
+}
+.img-list img {
+    height: 75px;
+    width: 135px;
+}
+
+
+
+}
