@@ -43,7 +43,7 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
 }
-figure {
+.only-best {
     background-image: url("./assets/images/bg1.jpg");
     height: 200px;
     background-position-x: center;
@@ -51,7 +51,11 @@ figure {
     color: white;
     text-align: right;
 }
+.main-sect {
+    display: flex;
+    flex-wrap: wrap;
 
+}
 .header2 {
     display: inline-block;
     font-size: 50px;
@@ -63,14 +67,32 @@ figure {
 }
 .header2#work {
     margin-top: 100px;
+    margin-bottom: 500px;
 }
 .right-box {
     display: inline-block;
     font-size: larger;
     padding: 15px;
     width: 70%;
+    height: 200px;
     text-align: center;
+}
+.right-box img {
+    width: 60%;
+    border: 3px solid #39a6b2;
+}
+.img-list {
+    float: right;
+    height: 200px;
+
+}
+.img-list img {
+    height: 200px;
+
+    float: right;
 }
 
 
+
 /* FUTURE BG1 IMG SRC URL https://i.pinimg.com/originals/04/2d/47/042d478e2498ea6500bc99536dc35a1d.jpg /* 
+/*ADD BREAKPOINTS FOR MOBILE*/
