@@ -193,6 +193,14 @@ header a:hover {
 header nav ul li a {
     font-size: 16px;
 }
+.only-best img {
+    position: absolute;
+    top: 112px;
+}
+.only-best h2 {
+    font-size: 25px;
+    top: 259px;
+}
 .about-me-div{
     text-align: center;
 }
