@@ -53,7 +53,7 @@ header nav ul li a {
 }
 .only-best h2 {
     top: 214px;
-    right: 163px;
+    right: 183px;
     position: absolute;
     font-size: 36px;
     color: #fce138;
@@ -61,9 +61,9 @@ header nav ul li a {
     border: solid 3px teal;
 }
 .only-best img {
-    height: 175px;
+    height: 198px;
     position: absolute;
-    top:81px;
+    top: 58px;
     right: 0px;
     border: solid 3px teal;
 }
@@ -125,8 +125,8 @@ header nav ul li a {
 .img-run-buddy img {
     align-items: center;
     object-fit: cover;
-    height: 600px;
-    width: 1100px;
+    height: 686px;
+    width: 1242px;
     border: 3px solid #fce138;
 }
 .overlay1 {
@@ -153,8 +153,8 @@ header nav ul li a {
 .img-list img {
     align-items: center;
     object-fit: cover;
-    height: 300px;
-    width: 542px;
+    height: 473px;
+    width: 613px;
     margin: 5px;
     border: 3px solid #fce138;
 }
@@ -165,14 +165,13 @@ header nav ul li a {
     flex-wrap: wrap;
     background-color: #B0B0B0;
     padding: 25px;
-}
-.contact-me h2 {
-    font-size: 50;
+    font-size: 30px;
 }
 .contact-me ul li a{
     margin-right: 25px;
     text-decoration: none;
     color: teal;
+    font-size: 25px;
 }
 
 
@@ -181,6 +180,47 @@ header nav ul li a {
 
 /* FUTURE BG1 IMG SRC URL https://i.pinimg.com/originals/04/2d/47/042d478e2498ea6500bc99536dc35a1d.jpg /* 
 /*ADD BREAKPOINTS FOR MOBILE*/
+@media screen and (max-width:1399px) {
+    header nav ul li a {
+        font-size: 30px;
+    }
+    .img-run-buddy img {
+    height: 538px;
+    width: 988px;
+    }
+}
+@media screen and (max-width:1191px) {
+    header a:hover {
+        color:#fce138;
+        background: transparent;
+    }
+    header nav ul li a {
+        font-size: 30px;
+    }
+    .about-me-div{
+        text-align: center;
+    }
+    .about-me {
+        font-size: 45px;
+        width: 94%;
+        border: none;
+        border-bottom: 3px solid teal;
+    }
+    .img-run-buddy img {
+        height: 414px;
+        width: 798px;
+    }
+    .img-list img {
+        height: 169px;
+        width: 342px;
+    }
+    .contact-me h2 {
+        width: 100%;
+    }
+    .contact-me ul {
+        margin: 10px;
+    }  
+}
 
 @media screen and (max-width: 801px) {
     header {
