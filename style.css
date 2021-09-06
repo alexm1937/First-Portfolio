@@ -51,6 +51,22 @@ header nav ul li a {
     color: white;
     text-align: right;
 }
+.only-best h2 {
+    top: 214px;
+    right: 163px;
+    position: absolute;
+    font-size: 36px;
+    color: #fce138;
+    background-color: #686868;
+    border: solid 3px teal;
+}
+.only-best img {
+    height: 175px;
+    position: absolute;
+    top:81px;
+    right: 0px;
+    border: solid 3px teal;
+}
 .about-me-div {
     width: 100%;
     background-color: #B0B0B0;
