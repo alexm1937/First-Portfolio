@@ -1,0 +1,342 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #686868;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 1000;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    padding: 10px 15px;
+    margin: 0;
+}
+header a:hover {
+    background: #fce138;
+    color: #39a6b2;
+    border-radius: 15px;
+}
+header a { 
+    text-decoration: none;
+    color: #fce138;
+}
+header nav {
+    margin: 7px;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+.only-best {
+    background-image: url("./assets/images/bg1.jpg");
+    height: 200px;
+    background-position-x: center;
+    background-position-y: 30%;
+    color: white;
+    text-align: right;
+}
+.only-best h2 {
+    top: 214px;
+    right: 183px;
+    position: absolute;
+    font-size: 36px;
+    color: #fce138;
+    background-color: #686868;
+    border: solid 3px teal;
+}
+.only-best img {
+    height: 198px;
+    position: absolute;
+    top: 58px;
+    right: 0px;
+    border: solid 3px teal;
+}
+.about-me-div {
+    width: 100%;
+    background-color: #B0B0B0;
+}
+.about-me {
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 34px;
+    padding: 10px;
+    margin: 10px;
+    border-right: solid 3px teal;
+    width: 15%; 
+    text-align: center;
+}
+.right-text {
+    display: inline-block;
+    font-size: larger;
+    padding: 15px;
+    width: 70%;
+    text-align: center;
+}
+/*END ABOUT ME*/
+
+
+
+
+.main-sect {
+    display: flex;
+    background-color: #686868;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.work {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 50px;
+    text-align: center;
+    color: #fce138;
+}
+.work-thumbs {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-run-buddy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+.img-run-buddy img {
+    align-items: center;
+    object-fit: cover;
+    height: 686px;
+    width: 1242px;
+    border: 3px solid #fce138;
+}
+.overlay1 {
+    position: absolute;
+    bottom: 7px;
+    left: 0px;
+    background-color: #fce138;
+    color: teal;
+    font-size: 35px;
+    font-weight: bold;
+}
+.overlay2 {
+    position: absolute;
+    top: 16px;
+    left: 8px;
+    background-color: #fce138;
+    color: teal;
+    font-size: 25px;
+    font-weight: bold;
+}
+.img-list {
+    position: relative
+}
+.img-list img {
+    align-items: center;
+    object-fit: cover;
+    height: 473px;
+    width: 613px;
+    margin: 5px;
+    border: 3px solid #fce138;
+}
+/*END MY WORK START CONTACT ME */
+.contact-me {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #B0B0B0;
+    padding: 25px;
+    font-size: 30px;
+}
+.contact-me ul li a{
+    margin-right: 25px;
+    text-decoration: none;
+    color: teal;
+    font-size: 25px;
+}
+
+
+
+
+
+/* FUTURE BG1 IMG SRC URL https://i.pinimg.com/originals/04/2d/47/042d478e2498ea6500bc99536dc35a1d.jpg /* 
+/*ADD BREAKPOINTS FOR MOBILE*/
+@media screen and (max-width:1399px) {
+    header nav ul li a {
+        font-size: 30px;
+    }
+    .img-run-buddy img {
+    height: 538px;
+    width: 988px;
+    }
+}
+@media screen and (max-width:1191px) {
+    header a:hover {
+        color:#fce138;
+        background: transparent;
+    }
+    header nav ul li a {
+        font-size: 30px;
+    }
+    .about-me-div{
+        text-align: center;
+    }
+    .about-me {
+        font-size: 45px;
+        width: 94%;
+        border: none;
+        border-bottom: 3px solid teal;
+    }
+    .img-run-buddy img {
+        height: 414px;
+        width: 798px;
+    }
+    .img-list img {
+        height: 169px;
+        width: 342px;
+    }
+    .contact-me h2 {
+        width: 100%;
+    }
+    .contact-me ul {
+        margin: 10px;
+    }  
+}
+
+@media screen and (max-width: 801px) {
+    header {
+        width: 100%;
+    }
+    header h1 {
+     font-size: 35px;
+     width: 100%;
+    }
+    header a:hover {
+        color:#fce138;
+        background: transparent;
+    }
+    header nav ul li a {
+        font-size: 30px;
+    }
+    .only-best img {
+        position: absolute;
+        top: 127px;
+    }
+    .only-best h2 {
+        font-size: 35px;
+        top: 138px;
+        right: 103px;
+        z-index: 1;
+    }
+    .about-me-div{
+        text-align: center;
+    }
+    .about-me {
+        font-size: 45px;
+        width: 94%;
+        border: none;
+        border-bottom: 3px solid teal;
+    }
+    .img-run-buddy img {
+        height: 222px;
+        width: 415px;
+        margin: 0 75px;
+    }
+    .img-list img {
+        height: 122px;
+        width: 191px;
+        margin: 0px 30px;
+    }
+    .overlay1 {
+        font-size: 25px;
+        left: 102px;
+    }
+    .overlay2 {
+        font-size: 12px;
+    }
+    .contact-me h2 {
+        width: 100%;
+    }
+    .contact-me ul {
+        margin: 10px;
+    }  
+}
+
+@media screen and (max-width: 484px) {
+header {
+    width: 100%;
+}
+header h1 {
+ font-size: 19px;
+}
+header a:hover {
+    color:#fce138;
+    background: transparent;
+}
+header nav ul li a {
+    font-size: 15.5px;
+    font-weight: bold;
+}
+.only-best img {
+    position: absolute;
+    top: 94px;
+}
+.only-best h2 {
+    font-size: 25px;
+    top: 108px;
+    right: 104px;
+    z-index: 1;
+}
+.about-me-div{
+    text-align: center;
+}
+.about-me {
+    font-size: 20px;
+    width: 94%;
+    border: none;
+    border-bottom: 3px solid teal;
+}
+.img-run-buddy img {
+    height: 150px;
+    width: 285px;
+    margin: 0
+}
+.img-list img {
+    height: 150px;
+    width: 285px;
+    margin: 0
+}
+.overlay1 {
+    font-size: 25px;
+    left: 3px
+}
+.overlay2 {
+    font-size: 16px;
+    left: 3px
+}
+.contact-me h2 {
+    width: 100%;
+}
+.contact-me ul {
+    margin: 10px;
+}
+}
