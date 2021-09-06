@@ -89,10 +89,6 @@ header nav ul li a {
     text-align: center;
 }
 /*END ABOUT ME*/
-
-
-
-
 .main-sect {
     display: flex;
     background-color: #686868;
@@ -172,7 +168,6 @@ header nav ul li a {
     filter: none;
     -webkit-filter: none;
 }
-
 /*END MY WORK START CONTACT ME */
 .contact-me {
     display: flex;
@@ -188,13 +183,7 @@ header nav ul li a {
     color: teal;
     font-size: 25px;
 }
-
-
-
-
-
-/* FUTURE BG1 IMG SRC URL https://i.pinimg.com/originals/04/2d/47/042d478e2498ea6500bc99536dc35a1d.jpg /* 
-/*ADD BREAKPOINTS FOR MOBILE*/
+/*BREAKPOINTS*/
 @media screen and (max-width:1399px) {
     header nav ul li a {
         font-size: 30px;
@@ -244,7 +233,6 @@ header nav ul li a {
         margin: 10px;
     }  
 }
-
 @media screen and (max-width: 801px) {
     header {
         width: 100%;
@@ -303,7 +291,6 @@ header nav ul li a {
         margin: 10px;
     }  
 }
-
 @media screen and (max-width: 484px) {
 header {
     width: 100%;
