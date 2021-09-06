@@ -44,7 +44,7 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 .only-best {
-    background-image: url("./assets/images/bg1.jpg");
+    background-image: url("./images/bg1.jpg");
     height: 200px;
     background-position-x: center;
     background-position-y: 30%;
@@ -128,7 +128,14 @@ header nav ul li a {
     height: 686px;
     width: 1242px;
     border: 3px solid #fce138;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
 }
+.img-run-buddy img:hover {
+    filter: none;
+    -webkit-filter: none;
+  }
 .overlay1 {
     position: absolute;
     bottom: 7px;
@@ -157,7 +164,15 @@ header nav ul li a {
     width: 613px;
     margin: 5px;
     border: 3px solid #fce138;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
 }
+.img-list img:hover {
+    filter: none;
+    -webkit-filter: none;
+}
+
 /*END MY WORK START CONTACT ME */
 .contact-me {
     display: flex;
@@ -187,6 +202,14 @@ header nav ul li a {
     .img-run-buddy img {
     height: 538px;
     width: 988px;
+    filter: none;
+    filter: none;
+    -webkit-filter: none;
+    }
+    .img-list img {
+        filter: none;
+    filter: none;
+    -webkit-filter: none;
     }
 }
 @media screen and (max-width:1191px) {
@@ -239,7 +262,7 @@ header nav ul li a {
     }
     .only-best img {
         position: absolute;
-        top: 127px;
+        top: 108px;
     }
     .only-best h2 {
         font-size: 35px;
@@ -298,7 +321,7 @@ header nav ul li a {
 }
 .only-best img {
     position: absolute;
-    top: 94px;
+    top: 74px;
 }
 .only-best h2 {
     font-size: 25px;
