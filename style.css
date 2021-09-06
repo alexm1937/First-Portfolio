@@ -181,7 +181,8 @@ header nav ul li a {
 
 /* FUTURE BG1 IMG SRC URL https://i.pinimg.com/originals/04/2d/47/042d478e2498ea6500bc99536dc35a1d.jpg /* 
 /*ADD BREAKPOINTS FOR MOBILE*/
-@media screen and (max-width: 1242px) {
+
+@media screen and (max-width: 801px) {
     header {
         width: 100%;
     }
@@ -198,31 +199,36 @@ header nav ul li a {
     }
     .only-best img {
         position: absolute;
-        top: 112px;
+        top: 127px;
     }
     .only-best h2 {
-        font-size: 25px;
-        top: 259px;
+        font-size: 35px;
+        top: 138px;
+        right: 103px;
+        z-index: 1;
     }
     .about-me-div{
         text-align: center;
     }
     .about-me {
-        font-size: 20px;
+        font-size: 45px;
         width: 94%;
         border: none;
         border-bottom: 3px solid teal;
     }
     .img-run-buddy img {
-        height: 150px;
-        width: 285px;
+        height: 222px;
+        width: 415px;
+        margin: 0 75px;
     }
     .img-list img {
-        height: 75px;
-        width: 135px;
+        height: 122px;
+        width: 191px;
+        margin: 0px 30px;
     }
     .overlay1 {
         font-size: 25px;
+        left: 102px;
     }
     .overlay2 {
         font-size: 12px;
@@ -232,9 +238,7 @@ header nav ul li a {
     }
     .contact-me ul {
         margin: 10px;
-    }
-    
-    
+    }  
 }
 
 @media screen and (max-width: 484px) {
@@ -249,7 +253,8 @@ header a:hover {
     background: transparent;
 }
 header nav ul li a {
-    font-size: 16px;
+    font-size: 15.5px;
+    font-weight: bold;
 }
 .only-best img {
     position: absolute;
@@ -273,16 +278,20 @@ header nav ul li a {
 .img-run-buddy img {
     height: 150px;
     width: 285px;
+    margin: 0
 }
 .img-list img {
-    height: 75px;
-    width: 135px;
+    height: 150px;
+    width: 285px;
+    margin: 0
 }
 .overlay1 {
     font-size: 25px;
+    left: 3px
 }
 .overlay2 {
     font-size: 16px;
+    left: 3px
 }
 .contact-me h2 {
     width: 100%;
@@ -290,6 +299,4 @@ header nav ul li a {
 .contact-me ul {
     margin: 10px;
 }
-
-
 }
