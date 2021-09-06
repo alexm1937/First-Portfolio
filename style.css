@@ -107,6 +107,7 @@ header nav ul li a {
     margin: 5px;
     font-size: 50px;
     text-align: center;
+    color: #fce138;
 }
 .work-thumbs {
     display: flex;
@@ -168,8 +169,10 @@ header nav ul li a {
 .contact-me h2 {
     font-size: 50;
 }
-.contact-me ul {
+.contact-me ul li a{
     margin-right: 25px;
+    text-decoration: none;
+    color: teal;
 }
 
 
@@ -178,8 +181,63 @@ header nav ul li a {
 
 /* FUTURE BG1 IMG SRC URL https://i.pinimg.com/originals/04/2d/47/042d478e2498ea6500bc99536dc35a1d.jpg /* 
 /*ADD BREAKPOINTS FOR MOBILE*/
+@media screen and (max-width: 1242px) {
+    header {
+        width: 100%;
+    }
+    header h1 {
+     font-size: 35px;
+     width: 100%;
+    }
+    header a:hover {
+        color:#fce138;
+        background: transparent;
+    }
+    header nav ul li a {
+        font-size: 30px;
+    }
+    .only-best img {
+        position: absolute;
+        top: 112px;
+    }
+    .only-best h2 {
+        font-size: 25px;
+        top: 259px;
+    }
+    .about-me-div{
+        text-align: center;
+    }
+    .about-me {
+        font-size: 20px;
+        width: 94%;
+        border: none;
+        border-bottom: 3px solid teal;
+    }
+    .img-run-buddy img {
+        height: 150px;
+        width: 285px;
+    }
+    .img-list img {
+        height: 75px;
+        width: 135px;
+    }
+    .overlay1 {
+        font-size: 25px;
+    }
+    .overlay2 {
+        font-size: 12px;
+    }
+    .contact-me h2 {
+        width: 100%;
+    }
+    .contact-me ul {
+        margin: 10px;
+    }
+    
+    
+}
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 484px) {
 header {
     width: 100%;
 }
@@ -195,11 +253,13 @@ header nav ul li a {
 }
 .only-best img {
     position: absolute;
-    top: 112px;
+    top: 94px;
 }
 .only-best h2 {
     font-size: 25px;
-    top: 259px;
+    top: 108px;
+    right: 104px;
+    z-index: 1;
 }
 .about-me-div{
     text-align: center;
@@ -222,7 +282,7 @@ header nav ul li a {
     font-size: 25px;
 }
 .overlay2 {
-    font-size: 12px;
+    font-size: 16px;
 }
 .contact-me h2 {
     width: 100%;
